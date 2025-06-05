@@ -19,9 +19,12 @@ class stack{
 
     public:
     stack(){
-        top = NULL;  // Initialize the stack with a null top pointer
+        top = NULL; // Initialize the stack with a null top pointer
 
         
     }
    
+    //Push Operation Insert an element onto the top of the  stack
+   int push(int value){
+    
 
