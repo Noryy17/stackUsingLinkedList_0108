@@ -19,7 +19,7 @@ class stack{
 
     public:
     stack(){
-        top = NULL; // Initialize the stack with a null top pointer
+        top = NULL;  // Initialize the stack with a null top pointer
 
         
     }
