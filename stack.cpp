@@ -42,6 +42,6 @@ class stack{
    void pop (){
     if (isEmpty()){
         cout << "Stack is Empty." <<endl;
-        return; // if the stack is empty, print a message and return
+        return;  // if the stack is empty, print a message and return
     }
    
