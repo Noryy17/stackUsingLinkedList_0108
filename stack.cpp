@@ -32,4 +32,6 @@ class stack{
     top = newNode;           // 4. Update the top pointer
     cout << "Push Value: " << value << endl; // Menampilkan Push Value
     return value;
-   
+   } 
+   //IsEmpty operation: check if the stack is empty
+   bool isEmpty(){
