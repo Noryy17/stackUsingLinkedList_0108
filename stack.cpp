@@ -47,4 +47,10 @@ class stack{
     cout << "Popped Vallue: " << top->data << endl;
     top = top->next; //Update the top pointer to the next node
    }
-   
+   // Peek/Top operation: Retrive the vallue of the topmosi elemnt without removing it
+   void peek(){
+     if (isEmpty()){
+        cout << "List is Empty." <<endl;
+        return; // if the stack is empty,print a message and return
+     }
+    
