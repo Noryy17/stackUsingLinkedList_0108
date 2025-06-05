@@ -30,4 +30,6 @@ class stack{
     newNode ->data = value;    // 2.Assignt Value  
     newNode ->next = top;     // 3. Set the next pointer of the new node to current
     top = newNode;           // 4. Update the top pointer
+    cout << "Push Value: " << value << endl; // Menampilkan Push Value
+    return value;
    
