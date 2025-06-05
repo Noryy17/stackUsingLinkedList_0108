@@ -27,4 +27,4 @@ class stack{
     //Push Operation Insert an element onto the top of the  stack
    int push(int value){
     Node *newNode = new Node(); // 1.Allocate memory for the new node
-    
+    newNode ->data = value;    // 2.Assignt Value  
