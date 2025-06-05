@@ -38,3 +38,10 @@ class stack{
     return top == NULL; // Return true if the top pointer is Null
    }
 
+   //Pop Operation Remove the topmost element from the stack
+   void pop (){
+    if (isEmpty()){
+        cout << "Stack is Empty." <<endl;
+        return; // if the stack is empty, print a message and return
+    }
+   
